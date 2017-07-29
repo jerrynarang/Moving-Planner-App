@@ -35,7 +35,7 @@ function loadData() {
     // q is a Search query term. Search is performed on the article body, headline and byline
     // By default, search results are sorted by their relevance to the query term (q). Use the sort parameter to sort by pub_date."
     // Allowed values for sort are newest & oldest
-    var nytimesUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + cityStr + '&sort=newest&api-key=563bcc9700b84b748b4ef602b9bc33a3';
+    var nytimesUrl = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q=' + cityStr + '&sort=newest&api-key=XXXXXXXXXXXXXXXXXXX';
     
     // Passing a url string and an anonymous function.This anonymous fn would run when the response returns from the server 
     $.getJSON(nytimesUrl, function(data){
